@@ -1,29 +1,69 @@
 
 body {
 	font-family: sans-serif;
+	padding: ;
 }
 .octocat img{
-	width: 400px;
+	width: 300px;
 	border: 1px solid #CFCFCF ;
+	margin: 10px;
+	border-radius: 5px;
+
+
+
 }
 
 .authors img{
-	width: 25px;
+	width: 20px;
 	border: none;
 }
 
 .octocat{
 	float: left;
+	margin: 10px;
+	position: relative;
 }
 ul {
 	list-style: none;
+	
 
 }
 
 .image-caption{
 	float: right;
+	color: silver;
+	position: relative;
+	font-weight: 900;
+
 }
 .image-number::before {
 	content: "#";
+	color: silver;
 
+}
+.image-footer{
+	height: 50px;
+	color: silver;
+	font-weight: 900;
+	font-family: sans-serif;
+	border-bottom: 2px solid #CFCFCF
+}
+
+.image-caption:before{
+	content: " ";
+	width: 0;
+height: 0;
+border-style: solid;
+border-width: 10px 8px 0 10px;
+border-color: #cfcfcf transparent transparent transparent;
+float: right;
+
+
+}
+
+.authors{
+	color: silver;
+}
+ul.author{
+	padding-left: Opx;
 }
