@@ -1,20 +1,22 @@
 
 body {
 	font-family: sans-serif;
-	padding: ;
+  margin-left: -25px;
+
 }
 .octocat img{
-	width: 300px;
+	width: 375px;
 	border: 1px solid #CFCFCF ;
 	margin: 10px;
 	border-radius: 5px;
+  margin-bottom: -5px;
 
 
 
 }
 
 .authors img{
-	width: 20px;
+	width: 25px;
 	border: none;
 }
 
@@ -25,15 +27,21 @@ body {
 }
 ul {
 	list-style: none;
-	
+	float: right;
+/*	width: 30px; */
+
 
 }
 
 .image-caption{
-	float: right;
-	color: silver;
-	position: relative;
-	font-weight: 900;
+  float: right; */
+  color: silver;
+  position: relative;
+  font-weight: 900;
+  margin-right: -65PX;
+  /* PADDING-TOP: 0PX; */
+  /*PADDING-LEFT: 117PX;*/
+  /*margin-top: -32px*/
 
 }
 .image-number::before {
@@ -42,11 +50,15 @@ ul {
 
 }
 .image-footer{
-	height: 50px;
-	color: silver;
-	font-weight: 900;
-	font-family: sans-serif;
-	border-bottom: 2px solid #CFCFCF
+  height: 31px;
+  color: silver;
+  font-weight: 900;
+  font-family: sans-serif;
+  border-bottom: 2px solid #CFCFCF;
+  /*margin-left: 13px;*/
+  padding-right: 62px;
+  padding-top: 15px;
+  font-size: 14px;
 }
 
 .image-caption:before{
@@ -57,12 +69,18 @@ border-style: solid;
 border-width: 10px 8px 0 10px;
 border-color: #cfcfcf transparent transparent transparent;
 float: right;
+margin-top: -15px;
+margin-right: 25px;
 
 
 }
 
 .authors{
 	color: silver;
+  float: right;
+  margin-top: -5px;
+  margin-right: 20px;
+  margin-left: -70px;
 }
 ul.author{
 	padding-left: Opx;
